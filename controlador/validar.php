@@ -8,7 +8,7 @@ session_start();
   		if($pass==$f['contrasena_usuario']){
 				$_SESSION['username']=$f['nombre_usuario'];
   			$_SESSION['rol']=$f['rol'];
-  			header("Location: ../panel.php");
+  			header("Location: ../vista/panel.php");
   		}
 			else{
   			echo '<script>alert("CONTRASEÑA INCORRECTA")</script> ';
