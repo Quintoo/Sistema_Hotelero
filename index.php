@@ -17,11 +17,11 @@
           <div class="col-12 user-img">
             <img src="Img/avatar.png"/>
           </div>
-          <form class="col-12">
+          <form action="controlador/validar.php" method="post" class="col-12">
               <div class="form-group" id="user-group">
                 <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
               </div>
-              <div class="form-group" id="pass-group">
+              <div class="form-group" id="password-group">
                  <input type="password" class="form-control" placeholder="Contraseña" name="password"/>
               </div>
               <button type="submit" class="btn btn-info"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
