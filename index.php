@@ -24,7 +24,7 @@
               <div class="form-group" id="password-group">
                  <input type="password" class="form-control" placeholder="Contraseña" name="password"/>
               </div>
-              <button type="submit" class="btn btn-info"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
+              <button type="submit" class="btn btn-info"><i class="fas fa-sign-in-alt"></i>  Ingresar</button>
           </form>
         </div>
       </div>
