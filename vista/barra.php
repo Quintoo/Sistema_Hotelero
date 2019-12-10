@@ -26,10 +26,11 @@
     <div class="bg-dark border-right" id="sidebar-wrapper">
       <div class="sidebar-heading text-light">Inicio </div>
       <div class="list-group list-group-flush ">
-        <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Reservacion</a>
+        <a href="agregar.php" class="list-group-item list-group-item-action bg-dark text-white">Reservacion</a>
         <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Habitaciones</a>
         <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Servicios</a>
         <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Agenda</a>
+        <a href="formulario_usuarios.php" class="list-group-item list-group-item-action bg-dark text-white">Agregar Usuario</a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -44,6 +45,34 @@
               <h1>Reservar</h1>
             </div>
             <div class="form-group" id="user-group">
+              <p>Nombre del Huesped</p>
+              <input type="text" class="form-control" placeholder="Nombre Huesped" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
+              <p>Tipo de Huesped</p>
+              <input type="text" class="form-control" placeholder="Especifique Viajero, Negocios, etc" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
+              <p>Check In</p>
+              <input type="text" class="form-control" placeholder="Entrada" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
+              <p>Check Out</p>
+              <input type="text" class="form-control" placeholder="Salida" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
+              <p>Tipo de Habitacion</p>
+              <input type="text" class="form-control" placeholder="Tipo de Habitacion" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
+              <p>N° De Habitacion</p>
+              <input type="text" class="form-control" placeholder="Numero Hab" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
+              <p>Forma de pago</p>
+              <input type="text" class="form-control" placeholder="Efectivo, Tarjeta, etc" name="phone"/>
+            </div>
+            <div class="form-group" id="user-group">
               <p>Telefono</p>
               <input type="text" class="form-control" placeholder="Numero Telefonico" name="phone"/>
             </div>
@@ -56,10 +85,14 @@
               <input type="text" class="form-control" placeholder="Vehiculo" name="car"/>
               <input type="text" class="form-control" placeholder="Placa" name="placa"/>
             </div>
+            <div class="form-group" id="user-group">
+              <p>No. Indentificacion</p>
+              <input type="text" class="form-control" placeholder="Numero Identificacion Personal" name="phone"/>
+            </div>
             <div class="form-group" id="pass-group">
                <input type="text" class="form-control" placeholder="Contraseña" name="password"/>
             </div>
-            <button type="submit" class="btn btn-info"><i class="fas fa-sign-in-alt"></i>  Ingresar</button>
+            <button type="submit" class="btn btn-info"><i class="fas fa-sign-in-alt"></i><a href="bienvenido.php">  Ingresar</a></button>
         </form>
       </div>
     </div>
